@@ -30,9 +30,9 @@ public class HTTPServer {
             ServerSocket serverSocket = null;
             Socket clientSocket = null;
             try {
-                serverSocket = new ServerSocket(35000);
+                serverSocket = new ServerSocket(new Integer(System.getenv("PORT")));
             } catch (IOException e) {
-                System.err.println("Could not listen on port: 35000.");
+                System.err.println("Could not listen on port");
                 System.exit(1);
             }
          while(true){
