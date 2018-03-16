@@ -1,4 +1,4 @@
-RequestHandle.class
-HTTPServer.class
-PageReader.class
-ImageReader.class
+com/mycompany/webserverhttp/ImageReader.class
+com/mycompany/webserverhttp/HTTPServer.class
+com/mycompany/webserverhttp/PageReader.class
+com/mycompany/webserverhttp/RequestHandle.class
